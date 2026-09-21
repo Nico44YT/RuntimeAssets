@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "runtime_assets",
+  "version": "${version}",
+  "name": "RuntimeAssets",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/runtime_assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "nico.runtimeassets.client.RuntimeAssetsClient"
+    ],
+    "main": [
+      "nico.runtimeassets.RuntimeAssetsMain"
+    ]
+  },
+  "mixins": [
+    "runtimeassets.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

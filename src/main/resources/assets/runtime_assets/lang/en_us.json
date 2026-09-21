@@ -1,0 +1,5 @@
+{
+  "pack.runtime_assets.generated_assets.name": "Runtime Assets",
+  "pack.runtime_assets.generated_assets.description": "Generated assets during runtime.",
+  "pack.source.runtime_assets": "Runtime Assets"
+}
